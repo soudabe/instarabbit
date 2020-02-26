@@ -1,0 +1,61 @@
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+@media (min-width: 600px) {
+  .MuiGrid-grid-sm-10 {
+    flex-grow: 0 !important;
+    max-width: 83.333333% !important;
+    flex-basis: 83.333333% !important;
+  }
+}
+
+.MuiGrid-grid-xs-4 {
+  flex-grow: 0;
+  max-width: 33.333333%;
+  flex-basis: 33.333333%;
+}
+.MuiGrid-grid-xs-5 {
+  flex-grow: 0;
+  max-width: 41.666667%;
+  flex-basis: 41.666667%;
+}
+.MuiGrid-grid-xs-6 {
+  flex-grow: 0;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.MuiGrid-grid-xs-12 {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+.MuiGrid-grid-md-6,
+.MuiGrid-grid-sm-6 {
+  flex-grow: 0;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.MuiGrid-justify-xs-center {
+  justify-content: center;
+}
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+@media (min-width: 960px) {
+  .MuiGrid-grid-md-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+}

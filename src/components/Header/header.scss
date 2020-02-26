@@ -1,0 +1,30 @@
+.statisticsLanding_header_top {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(95.58deg, #1e4159 -0.9%, #34648e), linear-gradient(101.44deg, #57cdcf 0.28%, #6ce9c0);
+}
+.header_top_inner {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+
+  a {
+    text-decoration: none !important;
+  }
+
+  svg {
+    width: 200px;
+    height: 90px;
+  }
+  @media only screen and (max-width: 768px) {
+    svg {
+      width: 100px;
+      height: 40px;
+    }
+  }
+}

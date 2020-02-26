@@ -1,0 +1,68 @@
+.jss157 {
+  position: relative;
+  max-width: 100%;
+}
+%jss158 {
+  top: 50%;
+  color: rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  font-size: 120px;
+  transform: translateY(-50%);
+}
+.jss158 {
+  .jss159 {
+    @extend %jss158;
+    right: 0;
+  }
+  .jss160 {
+    @extend %jss158;
+    left: 0;
+  }
+}
+.jss161 {
+  display: flex;
+  justify-content: center;
+}
+.jss162 {
+  display: flex;
+  margin-top: 24px;
+  justify-content: center;
+}
+
+.jss163 {
+  width: 16px;
+  border: none;
+  cursor: pointer;
+  height: 16px;
+  outline: none;
+  margin-left: 8px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+}
+.jss164 {
+  background-color: #bdbdbd;
+}
+.jss165 {
+  display: flex;
+  justify-content: center;
+}
+.jss166 {
+  overflow-x: hidden;
+  .jss167 {
+    flex-direction: row;
+    transition: transform 0s ease-in-out 0s;
+    direction: ltr;
+    display: flex;
+    will-change: transform;
+  }
+  .jss168 {
+    width: 100%;
+    flex-shrink: 0;
+    overflow: auto;
+  }
+}
+.react-swipeable-view-container > div {
+  overflow: hidden !important;
+}

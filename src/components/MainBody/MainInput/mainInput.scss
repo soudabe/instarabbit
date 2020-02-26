@@ -1,0 +1,41 @@
+.statisticsLanding_header_get_account {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    @media only screen and (max-width: 768px) {
+      font-size: 22px;
+    }
+  }
+  input {
+    border-radius: 4px;
+    height: 51px;
+    width: 80%;
+    border: none;
+    padding-left: 10px;
+  }
+  button {
+    background: linear-gradient(87.07deg, #ff985f 0.3%, #ffd15b 99.55%),
+      linear-gradient(97.65deg, #57cdcf 0.28%, #6ce9c0 100%);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 13.5px;
+    height: 51px;
+    width: 70%;
+    border: none;
+    color: #244a58;
+    font-size: 22px;
+    font-weight: bold;
+    @media only screen and (max-width: 768px) {
+      border-radius: 25.5px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.statisticsLanding_footer {
+  display: flex;
+  align-items: center;
+  background: #32618a;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+
+  span {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #b9b9b9;
+  }
+}
